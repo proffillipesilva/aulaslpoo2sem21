@@ -1,0 +1,15 @@
+texto = """1
+8
+9
+0
+1"""
+
+lista = texto.split("\n")
+
+media = 0
+i = 0
+
+for numeros in lista:
+	media += int(numeros)
+final = media/len(lista)
+print(final)
